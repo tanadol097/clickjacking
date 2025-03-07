@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    gap: 10px;
+    padding: 10px;
+}
+
+.left-panel {
+    width: 50%;
+    background: white;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.right-panel {
+    width: 50%;
+    background: white;
+    padding: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    font-family: monospace;
+}
+
+.warning {
+    color: red;
+    font-weight: bold;
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
